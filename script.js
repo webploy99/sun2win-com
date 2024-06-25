@@ -4,6 +4,11 @@ function OpenNav() {
   function CloseNav() {
     document.getElementById("Nav").style.width = "0";
 }
+
+function url() {
+    location.href = "https://www.hay88.one/?inviteCode=9178063";
+}
+
 const header = document.querySelector("#header")
 function head(){
   const headerContent = document.createElement("div")
@@ -37,8 +42,8 @@ function head(){
             </nav>
 
             <div class="flex justify-center gap-3 bg-yellow-600 md:bg-transparent py-1.5 mt-2 w-full md:w-auto *:border *:rounded *:px-3 *:py-1 *:shadow-md *:shadow-yellow-500/80 *:duration-300">
-                <button class="bg-gray-800 hover:bg-white hover:text-gray-800">ĐĂNG KÝ</button>
-                <button class="bg-orange-400 hover:bg-white hover:text-gray-800">ĐĂNG NHẬP</button>
+                <button onclick="url()" class="bg-gray-800 hover:bg-white hover:text-gray-800">ĐĂNG KÝ</button>
+                <button onclick="url()" class="bg-orange-400 hover:bg-white hover:text-gray-800">ĐĂNG NHẬP</button>
             </div>
         </div>`;
     header.appendChild(headerContent)
